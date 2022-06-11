@@ -1,5 +1,10 @@
-body{
+body {
 	font: 14pt/1.5 'Times New Roman';
 	background: black;
 	color: #32B232;
+}
+
+.grid-container1 {
+	display: grid;
+	grid-template-rows: 2 36px 36px;
 }
