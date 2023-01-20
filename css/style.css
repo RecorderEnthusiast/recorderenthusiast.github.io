@@ -4,6 +4,34 @@ body {
 	color: #32B232;
 }
 
+.addinfo {
+	font-size: 11px;
+	margin-left: 12px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.mtitle {
+	margin: 0px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.director {
+	margin-left: 12px;
+	font-size: 25px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.mreview {
+	font-size: 14px;
+	display:inline-block;
+	width: 550px;
+	margin-left: 13px;
+	
+	line-height: 180%;
+}
+	
 #Chess {
 	border-style: solid;
 	border-radius: 36px;
