@@ -4,6 +4,13 @@ body {
 	color: #32B232;
 }
 
+#RTL {
+	width: 200px;
+	bottom: 0;
+	left: 50%;
+	translate: translateX(50%);
+}
+
 #homerd {
 	padding-top: 30px;
 	right: 20px;
