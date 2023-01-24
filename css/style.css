@@ -7,7 +7,7 @@ body {
 #RTL {
 	width: 200px;
 	bottom: 0;
-	left: 50%;
+	left: 42.5%;
 	translate: translateX(50%);
 	position: absolute;
 }
