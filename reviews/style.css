@@ -1,0 +1,97 @@
+body {
+	font: 14pt/1.5 'Arial';
+	background: black;
+	color: #32B232;
+}
+
+#RTL {
+	width: 200px;
+	bottom: 0;
+	left: 43%;
+	translate: translateX(50%);
+	position: absolute;
+}
+
+#homerd {
+	padding-top: 30px;
+	right: 20px;
+	display: block;
+	position: relative;
+	width: 300px;
+	
+}
+
+#banner {
+	text-align: center;
+	text-decoration:none;
+}
+
+#banner a {
+	margin: 0 10px;
+	display: inline-block;
+	font-size: 20px;
+	color: #32B232;
+}
+
+.addinfo {
+	font-size: 11px;
+	margin-left: 12px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.mtitle {
+	margin: 0px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.director {
+	margin-left: 12px;
+	font-size: 25px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.mreview {
+	font-size: 14px;
+	display:inline-block;
+	width: 550px;
+	margin-left: 13px;
+	line-height: 180%;
+	background-color: #181818;
+	border-radius: 8px;
+	box-shadow: 0 0 0 2px #fff;
+	padding: 5px;
+	
+	
+	
+}
+	
+#Chess {
+	border-style: solid;
+	border-radius: 36px;
+	border-color: green;
+}
+
+#TikTok {
+	border-style: solid;
+	border-radius: 24px;
+	border-color: pink;
+}
+
+.grid-container1 {
+	display: grid;
+	grid-template-rows: 2 36px 36px;
+}
+
+.BottomHole {
+	padding: 4.5px;
+}
+ 
+.NormalHole {
+	z-index: 1;
+	display: block;
+	position: relative;
+	bottom: 80px;
+	left: 85px;
+}
