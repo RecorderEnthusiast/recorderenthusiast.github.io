@@ -12,6 +12,13 @@ body {
 	position: absolute;
 }
 
+.mimage {
+	position: absolute;
+	top: 100px;
+	right: 200px;
+	width: 200px;
+}
+
 #homerd {
 	padding-top: 30px;
 	right: 20px;
