@@ -15,7 +15,7 @@ body {
 #noisecorder {
 	position: relative;
 	top: 240px;
-	left: 25px;
+	left: 245px;
 	width: 1500px
 }
 #RTL {
@@ -94,8 +94,8 @@ body {
 #NG {
 	width: 30px;
 	position: absolute;
-	top: 340px;
-	left: 357px;
+	top: 450px;
+	left: 581px;
 	z-index: 1
 }
 #Dot {
@@ -103,14 +103,14 @@ body {
 	height: 20px;
 	position: relative;
 	z-index: 1;
-	top: 373px;
-	left: 361px;
+	top: 484px;
+	left: 585px;
 }
 #Letter {
 	width: 30px;
 	position: absolute;
-	top: 322px;
-	left: 242px;
+	top: 433px;
+	left: 462px;
 	z-index: 1
 }
 #Chess {
@@ -120,35 +120,35 @@ body {
 	height: auto;
 	width: 22px;
 	position: absolute;
-	top: 355px;
-	left: 454px;
+	top: 462px;
+	left: 675px;
 	z-index: 1
 }
 #TikTok {
 	position: relative;
 	width: 26px;
 	z-index: 1;
-	top: 253px;
-	left: 651px;
+	top: 363px;
+	left: 871px;
 }
 #Insta {
 	position: relative;
 	width: 25px;
 	z-index: 1;
-	top: 282px;
-	left: 552px;
+	top: 392px;
+	left: 773px;
 }
 #Youtube {
 	position: relative;
 	width: 29px;
 	z-index: 1;
-	top: 315px;
-	left: 744px;
+	top: 424px;
+	left: 965px;
 }
 #FB {
 	position: relative;
 	width: 28px;
 	z-index: 1;
-	top: 349px;
-	left: 838px;
+	top: 460px;
+	left: 1059px;
 }
