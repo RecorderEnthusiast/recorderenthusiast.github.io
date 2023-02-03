@@ -83,7 +83,14 @@ body {
 	box-shadow: 0 0 0 2px #fff;
 	padding: 5px;
 }
-
+#vcr {
+	position: fixed;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	margin-left: 50vw;
+	transform: translate(-50%);
+}
 #NG {
 	width: 30px;
 	position: absolute;
@@ -113,8 +120,8 @@ body {
 	height: auto;
 	width: 22px;
 	position: absolute;
-	top: 353px;
-	left: 455px;
+	top: 355px;
+	left: 454px;
 	z-index: 1
 }
 #TikTok {
