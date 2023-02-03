@@ -1,16 +1,25 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font: 14pt/1.5 'Arial';
 	background: black;
 	color: #32B232;
 }
 
+#noisecorder {
+	position: relative;
+	top: 200px;
+	left: 25px;
+	width: 1500px
+}
 #RTL {
 	width: 200px;
 	bottom: 0;
-	left: 42.5%;
+	left: 43%;
 	translate: translateX(50%);
 	position: absolute;
-	max-width: 100%;
 }
 
 .mimage {
@@ -18,7 +27,6 @@ body {
 	top: 100px;
 	right: 200px;
 	width: 200px;
-	max-width: 100%;
 }
 
 #homerd {
@@ -71,36 +79,66 @@ body {
 	border-radius: 8px;
 	box-shadow: 0 0 0 2px #fff;
 	padding: 5px;
-	
-	
-	
-}
-	
-#Chess {
-	border-style: solid;
-	border-radius: 36px;
-	border-color: green;
 }
 
-#TikTok {
-	border-style: solid;
-	border-radius: 24px;
-	border-color: pink;
+#NG {
+		width: 30px;
+	position: absolute;
+	top: 342px;
+	left: 366px;
+	z-index: 1
 }
-
-.grid-container1 {
-	display: grid;
-	grid-template-rows: 2 36px 36px;
-}
-
-.BottomHole {
-	padding: 4.5px;
-}
- 
-.NormalHole {
-	z-index: 1;
-	display: block;
+#Dot {
+	width: 20px;
+	height: 20px;
 	position: relative;
-	bottom: 80px;
-	left: 85px;
+	z-index: 1;
+	top: 333px;
+	left: 360px;
+}
+#Letter {
+			width: 30px;
+	position: absolute;
+	top: 325px;
+	left: 250px;
+	z-index: 1
+}
+#Chess {
+		border-style: solid;
+	border-radius: 32px;
+	border-color: green;
+  height: auto;
+	width: 22px;
+	position: absolute;
+	top: 355px;
+	left: 462px;
+	z-index: 1
+}
+#TikTok {
+position: relative;
+	width: 26px;
+	z-index: 1;
+	top: 353px;
+	left: 557px;
+}
+#Insta {
+position: relative;
+	width: 25px;
+	z-index: 1;
+	top: 347px;
+	left: 491px;
+}
+#Youtube {
+position: relative;
+	width: 27px;
+	z-index: 1;
+	top: 348px;
+	left: 713px;
+}
+#FB {
+position: relative;
+	width: 27px;
+	z-index: 1;
+	top: 347px;
+	left: 838px;
 }
