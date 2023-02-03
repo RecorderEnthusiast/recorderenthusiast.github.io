@@ -16,10 +16,9 @@ body {
 }
 #RTL {
 	width: 200px;
-	bottom: 0;
+	bottom: 20px;
 	left: 43%;
-	translate: translateX(50%);
-	position: absolute;
+	position: fixed;
 }
 
 .mimage {
@@ -110,7 +109,7 @@ body {
   height: auto;
 	width: 22px;
 	position: absolute;
-	top: 355px;
+	top: 359px;
 	left: 462px;
 	z-index: 1
 }
