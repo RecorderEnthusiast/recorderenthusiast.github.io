@@ -103,13 +103,13 @@ body {
 	z-index: 1
 }
 #Chess {
-		border-style: solid;
+	border-style: solid;
 	border-radius: 32px;
 	border-color: green;
-  height: auto;
+ 	height: auto;
 	width: 22px;
 	position: absolute;
-	top: 359px;
+	top: 363px;
 	left: 462px;
 	z-index: 1
 }
