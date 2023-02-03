@@ -1,35 +1,18 @@
 html {
 	scroll-behavior: smooth;
 }
-
 body {
 	font: 14pt/1.5 'Arial';
 	background: black;
 	color: #32B232;
 }
-.socials {
-	display: grid;
+#vcr {
 	position: fixed;
-}
-
-#noisecorder {
-	position: fixed;
-	top: 383px;
-	left: 245px;
-	width: 1500px
-}
-#RTL {
-	width: 200px;
-	bottom: 20px;
-	left: 43%;
-	position: fixed;
-}
-
-.mimage {
-	position: absolute;
-	top: 100px;
-	right: 200px;
-	width: 200px;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	margin-left: 50vw;
+	transform: translate(-50%);
 }
 
 #homerd {
@@ -40,17 +23,21 @@ body {
 	width: 300px;
 	
 }
-
 #banner {
 	text-align: center;
 	text-decoration:none;
 }
-
 #banner a {
 	margin: 0 10px;
 	display: inline-block;
 	font-size: 20px;
 	color: #32B232;
+}
+#RTL {
+	width: 200px;
+	bottom: 20px;
+	left: 43%;
+	position: fixed;
 }
 
 .addinfo {
@@ -64,14 +51,18 @@ body {
 	margin-top: 30px;
 	margin-left: 10px;
 }
-
+.mimage {
+	position: absolute;
+	top: 100px;
+	right: 200px;
+	width: 400px;
+}
 .director {
 	margin-left: 12px;
 	font-size: 25px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 }
-
 .mreview {
 	font-size: 14px;
 	display:inline-block;
@@ -83,13 +74,23 @@ body {
 	box-shadow: 0 0 0 2px #fff;
 	padding: 5px;
 }
-#vcr {
+
+#noisecorder {
 	position: fixed;
-	bottom: 0;
-	min-width: 100%;
-	min-height: 100%;
-	margin-left: 50vw;
-	transform: translate(-50%);
+	top: 383px;
+	left: 245px;
+	width: 1500px;
+}
+.socials {
+	display: grid;
+	position: fixed;
+}
+#Letter {
+	width: 30px;
+	position: fixed;
+	top: 435px;
+	left: 461px;
+	z-index: 1
 }
 #NG {
 	width: 30px;
@@ -106,13 +107,6 @@ body {
 	top: 484px;
 	left: 585px;
 }
-#Letter {
-	width: 30px;
-	position: fixed;
-	top: 435px;
-	left: 461px;
-	z-index: 1
-}
 #Chess {
 	border-style: solid;
 	border-radius: 32px;
@@ -124,19 +118,19 @@ body {
 	left: 675px;
 	z-index: 1
 }
-#TikTok {
-	position: fixed;
-	width: 26px;
-	z-index: 1;
-	top: 470px;
-	left: 871px;
-}
 #Insta {
 	position: fixed;
 	width: 25px;
 	z-index: 1;
 	top: 470px;
 	left: 773px;
+}
+#TikTok {
+	position: fixed;
+	width: 26px;
+	z-index: 1;
+	top: 470px;
+	left: 871px;
 }
 #Youtube {
 	position: fixed;
