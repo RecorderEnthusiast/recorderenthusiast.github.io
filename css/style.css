@@ -9,12 +9,12 @@ body {
 }
 .socials {
 	display: grid;
-	position: absolute;
+	position: fixed;
 }
 
 #noisecorder {
-	position: relative;
-	top: 240px;
+	position: fixed;
+	top: 383px;
 	left: 245px;
 	width: 1500px
 }
@@ -93,7 +93,7 @@ body {
 }
 #NG {
 	width: 30px;
-	position: absolute;
+	position: fixed;
 	top: 450px;
 	left: 581px;
 	z-index: 1
@@ -101,16 +101,16 @@ body {
 #Dot {
 	width: 20px;
 	height: 20px;
-	position: relative;
+	position: fixed;
 	z-index: 1;
 	top: 484px;
 	left: 585px;
 }
 #Letter {
 	width: 30px;
-	position: absolute;
-	top: 433px;
-	left: 462px;
+	position: fixed;
+	top: 435px;
+	left: 461px;
 	z-index: 1
 }
 #Chess {
@@ -119,36 +119,36 @@ body {
 	border-color: green;
 	height: auto;
 	width: 22px;
-	position: absolute;
-	top: 462px;
+	position: fixed;
+	top: 465px;
 	left: 675px;
 	z-index: 1
 }
 #TikTok {
-	position: relative;
+	position: fixed;
 	width: 26px;
 	z-index: 1;
-	top: 363px;
+	top: 470px;
 	left: 871px;
 }
 #Insta {
-	position: relative;
+	position: fixed;
 	width: 25px;
 	z-index: 1;
-	top: 392px;
+	top: 470px;
 	left: 773px;
 }
 #Youtube {
-	position: relative;
+	position: fixed;
 	width: 29px;
 	z-index: 1;
-	top: 424px;
+	top: 463px;
 	left: 965px;
 }
 #FB {
-	position: relative;
+	position: fixed;
 	width: 28px;
 	z-index: 1;
-	top: 460px;
+	top: 463px;
 	left: 1059px;
 }
