@@ -1,0 +1,127 @@
+	scroll-behavior: smooth;
+}
+body {
+	font: 14pt/1.5 'Arial';
+	background: black;
+	color: #32B232;
+}
+#vcr {
+	position: fixed;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	margin-left: 50vw;
+	transform: translate(-50%);
+}
+
+.recorder {
+	position: absolute;
+	max-width: 1520px;
+	width: 100%;
+	display: block;
+	top: 40%;
+}
+
+.recorder #rec {
+	width: 1520px;
+}
+
+.socials img {
+	max-width: 30px;
+	position: absolute;
+}
+
+.recorder #Letter {
+	top: 55px;
+  left: 220px;
+}
+
+.recorder #FB {
+	top: 82px;
+	left: 435px;
+}
+
+.recorder #Insta {
+	top: 70px;
+	left: 338px;
+}
+
+.recorder #Youtube {
+	top: 80px;
+	left: 532px;
+}
+
+.recorder #TikTok {
+	top: 87px;
+	left: 633px;
+}
+
+.recorder #NG {
+	top: 82px;
+	left: 730px;
+}
+
+.recorder #Chess {
+	top: 84px;
+	left: 824px;
+}
+
+#homerd {
+	padding-top: 30px;
+	right: 20px;
+	display: block;
+	position: relative;
+	width: 300px;
+	
+}
+#banner {
+	text-align: center;
+	text-decoration:none;
+}
+#banner a {
+	margin: 0 10px;
+	display: inline-block;
+	font-size: 20px;
+	color: #32B232;
+}
+#RTL {
+	width: 200px;
+	bottom: 20px;
+	left: 43%;
+	position: fixed;
+}
+
+.addinfo {
+	font-size: 11px;
+	margin-left: 12px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.mtitle {
+	margin: 0px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.mimage {
+	position: absolute;
+	top: 100px;
+	right: 200px;
+	width: 400px;
+}
+.director {
+	margin-left: 12px;
+	font-size: 25px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.mreview {
+	font-size: 14px;
+	display:inline-block;
+	width: 550px;
+	margin-left: 13px;
+	line-height: 180%;
+	background-color: #181818;
+	border-radius: 8px;
+	box-shadow: 0 0 0 2px #fff;
+	padding: 5px;
+}
