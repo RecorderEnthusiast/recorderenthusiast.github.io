@@ -1,4 +1,3 @@
-html {
 	scroll-behavior: smooth;
 }
 body {
@@ -13,6 +12,58 @@ body {
 	min-height: 100%;
 	margin-left: 50vw;
 	transform: translate(-50%);
+}
+
+.recorder {
+	position: absolute;
+	max-width: 1520px;
+	width: 100%;
+	display: block;
+	top: 40%;
+}
+
+.recorder #rec {
+	width: 1520px;
+}
+
+.socials img {
+	max-width: 30px;
+	position: absolute;
+}
+
+.recorder #Letter {
+	top: 55px;
+  left: 220px;
+}
+
+.recorder #FB {
+	top: 82px;
+	left: 435px;
+}
+
+.recorder #Insta {
+	top: 70px;
+	left: 338px;
+}
+
+.recorder #Youtube {
+	top: 80px;
+	left: 532px;
+}
+
+.recorder #TikTok {
+	top: 87px;
+	left: 633px;
+}
+
+.recorder #NG {
+	top: 82px;
+	left: 730px;
+}
+
+.recorder #Chess {
+	top: 84px;
+	left: 824px;
 }
 
 #homerd {
@@ -73,76 +124,4 @@ body {
 	border-radius: 8px;
 	box-shadow: 0 0 0 2px #fff;
 	padding: 5px;
-}
-
-#noisecorder {
-	position: fixed;
-	top: 383px;
-	left: 245px;
-	width: 1500px;
-}
-.socials {
-	display: grid;
-	position: fixed;
-}
-#Letter {
-	width: 30px;
-	position: fixed;
-	top: 435px;
-	left: 461px;
-	z-index: 1
-}
-#NG {
-	width: 30px;
-	position: fixed;
-	top: 450px;
-	left: 581px;
-	z-index: 1
-}
-#Dot {
-	width: 20px;
-	height: 20px;
-	position: fixed;
-	z-index: 1;
-	top: 484px;
-	left: 585px;
-}
-#Chess {
-	border-style: solid;
-	border-radius: 32px;
-	border-color: green;
-	height: auto;
-	width: 22px;
-	position: fixed;
-	top: 465px;
-	left: 675px;
-	z-index: 1
-}
-#Insta {
-	position: fixed;
-	width: 25px;
-	z-index: 1;
-	top: 470px;
-	left: 773px;
-}
-#TikTok {
-	position: fixed;
-	width: 26px;
-	z-index: 1;
-	top: 470px;
-	left: 871px;
-}
-#Youtube {
-	position: fixed;
-	width: 29px;
-	z-index: 1;
-	top: 463px;
-	left: 965px;
-}
-#FB {
-	position: fixed;
-	width: 28px;
-	z-index: 1;
-	top: 463px;
-	left: 1059px;
 }
