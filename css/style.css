@@ -1,5 +1,4 @@
-	scroll-behavior: smooth;
-}
+html {scroll-behavior: smooth;}
 body {
 	font: 14pt/1.5 'Arial';
 	background: black;
